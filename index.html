@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
+  <title>Página de documentación técnica</title>
+</head>
+
+<body>
+
+<nav id="navbar">
+  <header id="texto"><b>Documentación Python</b></header>
+  <ul>
+    <li><a class="nav-link" href="#Introducción_a_Python">Introducción a Python</a></li>
+    <li><a class="nav-link" href="#Características">Características</a></li>
+    <li><a class="nav-link" href="#Sintaxis_en_Python">Sintaxis en Python</a></li>
+    <li><a class="nav-link" href="#Variables">Variables</a></li>
+    <li><a class="nav-link" href="#Datos_en_Python">Datos en Python</a></li>
+  </ul>
+</nav>
+
+<main id="main-doc">
+
+  <section class="main-section" id="Introducción_a_Python">
+    <header>Introducción a Python</header>
+    <br>
+    <p>Phyton es un lenguaje interpretado, este es un lenguaje soporta la programación orientada a objetos. Tiene una
+      licencia de codigo abierto y su sintaxis es más simplificada que otros lenguajes de programación. Fue creado por
+      <b>Guido van Rossum</b>, el código se día a conocer en febrero de 1991.</p>
+    <br>
+    <p>El código creado contará con una gran legibilidad permitiendo una mejor comprensión por parte de los
+      programadores y haciendo más fácil la implementación del mismo ya que podemos plasmar ideas complejas con un
+      código muy reducido en comparación con otros lenguajes de programación. Cuenta con una gran comunidad y
+      soporte.</p>
+    <br>
+  </section>
+
+  <section class="main-section" id="Características">
+    <header>Características</header>
+    <br>
+    <p>Python es capaza de forzar a los programadores de adquirir un estilo particular de programación porque es posible
+      aplicar la programación funcional, imperativa y la orientada a objetos como se mencionó anteriormente, su lenguaje
+      es dinamicamente tipado donde una variable puede tomar distintos valores.</p>
+    <br>
+    <p>El intérprete que tiene Python de forma estándar tiene un modo interactivo done se escriben las instrucciones,
+      estas se pueden introducir una por una y veremos como resultado la evaluación inmediatamente, permite que probemos
+      porciones de código en el modo interactivo antes de ser integrado a un programa.</p>
+    <br>
+  </section>
+
+  <section class="main-section" id="Sintaxis_en_Python">
+    <header>Sintaxis en Python</header>
+    <br>
+    <p>Python es un lenguaje fácil de leer, los operadores lógicos en este lenguaje se escriben de otra forma. Las
+      estructuras de bucles y funciones se delimitan por medio de tabulaciones, esto lo diferencia de los demás leguajes
+      de programación en los que se debe delimitar por medio de llaves</p>
+    <br>
+    <pre><code>
+          numero = int(input("ingrese su edad"))
+          if numero < 18:
+          print("Es menor de edad")
+          else:
+          print("Es mayor de edad")
+       </code></pre>
+    <br>
+    <p>Paython viene con IDLE el cual es la consola mediante podemos programar, podemos introducir comentarios dentro
+      del código como una ayuda estos comentarios son introducidos con la almohadilla, también en el caso de que el
+      comentario se extienda por varias líneas utilizamos la barra invertida.</p>
+    <br>
+    <pre><code>
+          numero = int(input('Ingresa un número'))
+    </code></pre>
+    <br>
+  </section>
+
+  <section class="main-section" id="Variables">
+    <header>Variables</header>
+    <br>
+    <p>Cada leguaje tiene su forma de implementar el concepto de variable, en varios lenguajes se entiende que es una
+      caja la cual permite almacenar un valor representando una posición de memoria en el ordenador, pueden estar
+      representadas mediante letras, números o palabras. La variable es creada cuando se le asigna un valor por primero
+      vez y este valor es asignado mediante el operador de igualdad</p>
+    <br>
+    <pre><code>
+          numero = 10
+          nombre = "Omar Forero"
+          decimal = 20.5
+        </code></pre>
+    <br>
+    <p>El comando print permite que interactuemos con el programa donde podemos observar los datos almacenados en las
+      variables </p>
+    <br>
+    <pre><code>
+          palabra = "Soy un String"
+          numero = 30
+
+          # El siguiente comando muesta al usuario el texto
+          print(palabra)
+
+          # El siguiente comando muesta al usuario un número
+          print(numero)
+        </code></pre>
+    <br>
+  </section>
+
+  <section class="main-section" id="Datos_en_Python">
+    <header>Datos en Python</header>
+    <br>
+    <p>Este es un atributo que indica a la computadora y al programador que clase de datos se van a manejar, en Python
+      tenemos estos principales tipos de datos: </p>
+    <br>
+
+    <ul>
+      <li>Numeros complejos</li>
+      <li>Enteros</li>
+      <li>Cadenas</li>
+      <li>Boleanos</li>
+      <li>Flotantes</li>
+    </ul>
+    <br>
+    <p>Enteros: son aquellos números positivos como negativos que no tienen decimales, estos se pueden representar
+      mediante <b>int</b>, si es un número entero se realiza mediante <b>long</b>. Flotantes: son aquellos números
+      positivos o negativos que tiene decimales y los podemos representar mediante <b>float</b>. Complejos: estos
+      números tienen una parte real y una imaginaria se expresan mediante <b>complex</b>. Cadena: también se le conoce
+      como string, este es un texto el cual se encuentra encerrado en comillas simples o dobles. Booleano: puede
+      adquirir dos parámetros <b>True</b> o <b>False</b> son muy utilizados en las estructuras condicionales.</p>
+    <br>
+    <pre><code>
+          int = 30
+          float = 3.53
+          complex = 124i
+          "Hola soy un cadena o string"
+          true or Fale
+    </code></pre>
+    <br>
+  </section>
+
+</main>
+
+</body>
+
+</html>
